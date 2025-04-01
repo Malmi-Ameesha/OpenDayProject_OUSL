@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Reset Default Margins & Padding */
 * {
     margin: 0;
@@ -6,7 +8,7 @@
 }
 
 html, body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     width: 100%;
     height: 100%;
     overflow-x: hidden;
@@ -27,6 +29,7 @@ header {
 h1 {
     color: white;
     font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
@@ -70,6 +73,7 @@ nav ul li a:hover {
 
 .about h2 {
     color: #045d82;
+    font-weight: 700;
     font-size: 30px;
     margin-bottom: 20px;
     text-align: center;
@@ -103,12 +107,12 @@ nav ul li a:hover {
 .gallery {
     text-align: center;
     padding: 50px 5%;
-    background: #fff;
+    background-color: #045d82;
 }
 
 .gallery h2 {
     font-size: 30px;
-    color: #045d82;
+    color: #EEEEEE;
 }
 
 .gallery-container {
@@ -120,9 +124,9 @@ nav ul li a:hover {
 
 .gallery-item {
     background: #fff;
-    border-radius: 10px;
     overflow: hidden;
-    width: 45%;
+    width: 30%;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
 }
 
 .gallery-item img {
